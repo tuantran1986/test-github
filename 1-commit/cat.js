@@ -1,5 +1,5 @@
-function cat() {
-    console.log('tuantran git')
+function Cat() {
+    this.stomach = [];
 }
 
-module.exports = cat;
+module.exports = Cat;
