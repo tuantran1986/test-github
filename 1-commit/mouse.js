@@ -1,5 +1,10 @@
-function mouse(){    
-    console.log('tuantran git - mouse');
+function Mouse(name){    
+    this.name = name;
+    this.dead = false;
 }
 
-module.exports = mouse;
+Mouse.prototype.die = function() {
+    this.dead = true;
+}
+
+module.exports = Mouse;
