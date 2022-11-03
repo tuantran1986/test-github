@@ -5,4 +5,3 @@ const toTo = new Dog('Tô Tô');
 const myMy = new Dog('My My');
 toTo.eat(myMy);
 
-console.log(toTo);
